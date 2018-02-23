@@ -1,8 +1,8 @@
 #include "stdafx.h"
-#include "source\controllers\bstController\BSTController.h"
-#include "source\structures\bst\BST.h"
-#include "source\views\bst\BSTMenu.h"
-#include "source\controllers\testControllers\treeTestController\treeTestController.h"
+#include "controllers\bstController\BSTController.h"
+#include "structures\bst\BST.h"
+#include "views\bst\BSTMenu.h"
+#include "controllers\testControllers\treeTestController\treeTestController.h"
 
 using namespace std;
 

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../genericStructure/GenericStructure.h"
+#include "structures/genericStructure/GenericStructure.h"
 
 using namespace std;
 

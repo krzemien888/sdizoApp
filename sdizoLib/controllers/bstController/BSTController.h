@@ -1,5 +1,5 @@
 #pragma once
-#include "../genericController/GenericController.h"
+#include "controllers/genericController/GenericController.h"
 
 class BSTController :
 	public GenericController

@@ -1,9 +1,9 @@
 #include "stdafx.h"
 #include "ArrayController.h"
 
-#include "../../structures/array/Array.h"
-#include "../../views/array/ArrayMenu.h"
-#include "source\controllers\testControllers\structureTestController\structureTestController.h"
+#include "structures/array/Array.h"
+#include "views/array/ArrayMenu.h"
+#include "controllers\testControllers\structureTestController\structureTestController.h"
 
 using namespace std;
 

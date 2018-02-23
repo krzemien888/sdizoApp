@@ -1,5 +1,5 @@
 #pragma once
-#include "../genericView/GenericView.h"
+#include "views/genericView/GenericView.h"
 class listMenu :
 	public GenericView
 {

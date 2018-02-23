@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "structureTestController.h"
-#include "source\structures\array\Array.h"
-#include "source\structures\list\List.h"
+#include "structures\array\Array.h"
+#include "structures\list\List.h"
 
 using namespace std;
 

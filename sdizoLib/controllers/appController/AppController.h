@@ -1,7 +1,9 @@
 #pragma once
-#include "../genericController/GenericController.h"
+
+
+#include "controllers\genericController\GenericController.h"
 #include "stdafx.h"
-#include "../../utilities/NotImplementedException.h"
+#include "utilities/NotImplementedException.h"
 
 class AppController :
 	public GenericController

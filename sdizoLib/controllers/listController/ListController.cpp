@@ -1,9 +1,9 @@
 #include "stdafx.h"
 #include "ListController.h"
 
-#include "../../structures/list/List.h"
-#include "../../views/list/listMenu.h"
-#include "source\controllers\testControllers\structureTestController\structureTestController.h"
+#include "structures/list/List.h"
+#include "views/list/listMenu.h"
+#include "controllers\testControllers\structureTestController\structureTestController.h"
 
 using namespace std;
 

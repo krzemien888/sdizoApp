@@ -1,22 +1,22 @@
 #include "stdafx.h"
 #include "AppController.h"
-#include "source\views\app\appMenu.h"
+#include "views\app\appMenu.h"
 
-#include "source\controllers\appController\AppController.h"
-#include "source\controllers\listController/ListController.h"
-#include "source\controllers\heapController/HeapController.h"
-#include "source\controllers\bstController/BSTController.h"
-#include "source\controllers\rbTreeController/rbTreeController.h"
-#include "source\controllers\arrayController\ArrayController.h"
+#include "controllers\appController\AppController.h"
+#include "controllers\listController/ListController.h"
+#include "controllers\heapController/HeapController.h"
+#include "controllers\bstController/BSTController.h"
+#include "controllers\rbTreeController/rbTreeController.h"
+#include "controllers\arrayController\ArrayController.h"
 
-#include "source\structures\array\Array.h"
-#include "source\structures\bst\BST.h"
-#include "source\structures\heap\Heap.h"
-#include "source\structures\list\List.h"
-#include "source\structures\rbTree\rbTree.h"
+#include "structures\array\Array.h"
+#include "structures\bst\BST.h"
+#include "structures\heap\Heap.h"
+#include "structures\list\List.h"
+#include "structures\rbTree\rbTree.h"
 
-#include "source\controllers\testControllers\structureTestController\structureTestController.h"
-#include "source\controllers\testControllers\treeTestController\treeTestController.h"
+#include "controllers\testControllers\structureTestController\structureTestController.h"
+#include "controllers\testControllers\treeTestController\treeTestController.h"
 
 using namespace std;
 

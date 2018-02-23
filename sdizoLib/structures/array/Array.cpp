@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "Array.h"
 
-#include "../../views/array/ArrayMenu.h"
+#include "views/array/ArrayMenu.h"
 
 Array::Array() :
 	isCheap(true)

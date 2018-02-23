@@ -1,6 +1,6 @@
 #pragma once
-#include "source\controllers\testControllers\genericTestController\genericTestController.h"
-#include "source\structures\genericStructure\GenericStructure.h"
+#include "controllers\testControllers\genericTestController\genericTestController.h"
+#include "structures\genericStructure\GenericStructure.h"
 
 class treeTestController :
 	public genericTestController

@@ -1,9 +1,9 @@
 #include "stdafx.h"
 #include "HeapController.h"
 
-#include "source\structures\heap\Heap.h"
-#include "source\views\heap\heapMenu.h"
-#include "source\controllers\testControllers\treeTestController\treeTestController.h"
+#include "structures\heap\Heap.h"
+#include "views\heap\heapMenu.h"
+#include "controllers\testControllers\treeTestController\treeTestController.h"
 
 using namespace std;
 

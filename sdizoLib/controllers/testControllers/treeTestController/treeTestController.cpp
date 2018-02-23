@@ -1,7 +1,7 @@
 #include "stdafx.h"
-#include "source\controllers\testControllers\treeTestController\treeTestController.h"
-#include "source\structures\array\Array.h"
-#include "source\structures\bst\BST.h"
+#include "controllers\testControllers\treeTestController\treeTestController.h"
+#include "structures\array\Array.h"
+#include "structures\bst\BST.h"
 
 using namespace std;
 

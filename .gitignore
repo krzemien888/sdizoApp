@@ -4,3 +4,7 @@
 
 /.vs/sdizoApp/v15
 /Debug
+/sdizoApp/x64/Debug
+/sdizoLib/x64/Debug
+/sdizoTests/x64/Debug
+/x64/Debug

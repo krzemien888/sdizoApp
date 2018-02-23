@@ -4,9 +4,9 @@
 #include <vector>
 
 
-#include "source\views\rbTree\rbTreeMenu.h"
-#include "source\structures\rbTree\rbTree.h"
-#include "source\controllers\testControllers\treeTestController\treeTestController.h"
+#include "views\rbTree\rbTreeMenu.h"
+#include "structures\rbTree\rbTree.h"
+#include "controllers\testControllers\treeTestController\treeTestController.h"
 
 void rbTreeController::init()
 {

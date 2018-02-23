@@ -90,6 +90,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)\sdizoLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -103,6 +104,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\sdizoLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -119,6 +121,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)\sdizoLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -136,6 +139,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\sdizoLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -145,16 +149,61 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="controllers\appController\AppController.h" />
+    <ClInclude Include="controllers\arrayController\ArrayController.h" />
+    <ClInclude Include="controllers\bstController\BSTController.h" />
+    <ClInclude Include="controllers\genericController\GenericController.h" />
+    <ClInclude Include="controllers\heapController\HeapController.h" />
+    <ClInclude Include="controllers\listController\ListController.h" />
+    <ClInclude Include="controllers\rbTreeController\rbTreeController.h" />
+    <ClInclude Include="controllers\testControllers\genericTestController\genericTestController.h" />
+    <ClInclude Include="controllers\testControllers\structureTestController\structureTestController.h" />
+    <ClInclude Include="controllers\testControllers\treeTestController\treeTestController.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="structures\array\Array.h" />
+    <ClInclude Include="structures\bst\BST.h" />
+    <ClInclude Include="structures\genericStructure\GenericStructure.h" />
+    <ClInclude Include="structures\heap\Heap.h" />
+    <ClInclude Include="structures\list\List.h" />
+    <ClInclude Include="structures\rbTree\rbTree.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="utilities\NotImplementedException.h" />
+    <ClInclude Include="views\app\appMenu.h" />
+    <ClInclude Include="views\array\ArrayMenu.h" />
+    <ClInclude Include="views\bst\BSTMenu.h" />
+    <ClInclude Include="views\genericView\GenericView.h" />
+    <ClInclude Include="views\heap\heapMenu.h" />
+    <ClInclude Include="views\list\listMenu.h" />
+    <ClInclude Include="views\rbTree\rbTreeMenu.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="controllers\appController\AppController.cpp" />
+    <ClCompile Include="controllers\arrayController\ArrayController.cpp" />
+    <ClCompile Include="controllers\bstController\BSTController.cpp" />
+    <ClCompile Include="controllers\genericController\GenericController.cpp" />
+    <ClCompile Include="controllers\heapController\HeapController.cpp" />
+    <ClCompile Include="controllers\listController\ListController.cpp" />
+    <ClCompile Include="controllers\rbTreeController\rbTreeController.cpp" />
+    <ClCompile Include="controllers\testControllers\genericTestController\genericTestController.cpp" />
+    <ClCompile Include="controllers\testControllers\structureTestController\structureTestController.cpp" />
+    <ClCompile Include="controllers\testControllers\treeTestController\treeTestController.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="structures\array\Array.cpp" />
+    <ClCompile Include="structures\bst\BST.cpp" />
+    <ClCompile Include="structures\heap\Heap.cpp" />
+    <ClCompile Include="structures\list\List.cpp" />
+    <ClCompile Include="structures\rbTree\rbTree.cpp" />
+    <ClCompile Include="views\app\appMenu.cpp" />
+    <ClCompile Include="views\array\ArrayMenu.cpp" />
+    <ClCompile Include="views\bst\BSTMenu.cpp" />
+    <ClCompile Include="views\heap\heapMenu.cpp" />
+    <ClCompile Include="views\list\listMenu.cpp" />
+    <ClCompile Include="views\rbTree\rbTreeMenu.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

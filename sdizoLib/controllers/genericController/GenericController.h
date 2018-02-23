@@ -1,8 +1,8 @@
 #pragma once
 
 #include "stdafx.h"
-#include "../../structures/genericStructure/GenericStructure.h"
-#include "../../views/genericView/GenericView.h"
+#include "structures/genericStructure/GenericStructure.h"
+#include "views/genericView/GenericView.h"
 class GenericController
 {
 public:

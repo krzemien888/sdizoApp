@@ -1,5 +1,5 @@
 #pragma once
-#include "../genericStructure/GenericStructure.h"
+#include "structures/genericStructure/GenericStructure.h"
 #include "stdafx.h"
 
 class List :

@@ -1,8 +1,8 @@
 #pragma once
 
 #include "stdafx.h"
-#include "../../views/genericView/GenericView.h"
-#include "../../utilities/NotImplementedException.h"
+#include "views/genericView/GenericView.h"
+#include "utilities/NotImplementedException.h"
 
 class GenericStructure
 {

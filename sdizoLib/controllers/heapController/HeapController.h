@@ -1,5 +1,5 @@
 #pragma once
-#include "../genericController/GenericController.h"
+#include "controllers/genericController/GenericController.h"
 #include "stdafx.h"
 class HeapController :
 	public GenericController
